@@ -1,0 +1,104 @@
+ h1 {
+            text-align: right;
+        }
+        
+        img {
+            background-position: absolute;
+        }
+        
+        body {
+            background-color: #0a5e8f;
+            background-position: center;
+            color: white;
+            cursor: url("PRM/CURSOR32.png?raw=true"), default;
+            width: 1200px;
+            height: 690px;
+        }
+        /* BOUTON PARTAGE----------------------------------------------------*/
+        /*------fin bouton partage------------------------------*/
+        
+        #conteneur {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        .button {
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            position: relative;
+            left: 50px;
+            top: 50px;
+            color: #a0fcc9;
+            text-decoration: none;
+            background: linear-gradient(#ffffff 50%, #ffffff 50%);
+            text-align: center;
+            font-size: 15px;
+            font-family: sans-serif;
+        }
+        
+        .button:hover {
+            background: linear-gradient(#a0fcc9 50%, #c384fd 50%);
+        }
+        
+        .button:active {
+            background: linear-gradient(#c384fd 50%, #a0fcc9 50%);
+        }
+        
+        .button2 {
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            position: relative;
+            left: 250px;
+            top: 50px;
+            color: #a0fcc9;
+            text-decoration: none;
+            background: linear-gradient(#ffffff 50%, #ffffff 50%);
+            text-align: center;
+            font-size: 15px;
+            font-family: sans-serif;
+        }
+        
+        .button:hover {
+            background: linear-gradient(#c384fd 50%, #a0fcc9 50%);
+            color: #050505;
+        }
+        
+        .button:active {
+            background: linear-gradient(#a0fcc9 50%, #c384fd 50%);
+        }
+        
+        .button3 {
+            width: 80px;
+            height: 50px;
+            line-height: 50px;
+            position: relative;
+            left: 160px;
+            top: 50px;
+            color: #a0fcc9;
+            text-decoration: none;
+            background: linear-gradient(#ffffff 50%, #ffffff 50%);
+            text-align: center;
+            font-size: 15px;
+            font-family: sans-serif;
+        }
+        
+        .button:hover {
+            background: linear-gradient(#c384fd 50%, #a0fcc9 50%);
+            color: #000000;
+        }
+        
+        .button:active {
+            background: linear-gradient(#a0fcc9 50%, #c384fd50%);
+        }
+        
+        .button4 {
+            width: 75px;
+            height: 75px;
+            line-height: 50px;
+            position: absolute;
+            left: 204px;
+            top: 105px;
+        }
